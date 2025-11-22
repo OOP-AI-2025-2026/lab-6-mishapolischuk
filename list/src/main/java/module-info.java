@@ -1,9 +1,7 @@
 module ua.opnu.list {
-    requires javafx.controls;
-    requires javafx.fxml;
+    // Додай цей рядок:
+    requires java.desktop;
 
-    requires org.controlsfx.controls;
-
-    opens ua.opnu.list to javafx.fxml;
+    // Можливо, тут будуть ще якісь exports, залиш їх як є
     exports ua.opnu.list;
 }
